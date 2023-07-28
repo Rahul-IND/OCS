@@ -222,3 +222,24 @@ input, select {
         opacity: 1;
     }
 }
+
+.custom-height {
+    height: calc(100vh - 72px);
+    /* Subtract 20px from the height of the viewport (h-screen) */
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-50px);
+    }
+}
+
+/* Bounce animation class */
+.bounceAnimation {
+    animation: bounce 1s 2;
+    /* Bounces twice (1 second each bounce) */
+}

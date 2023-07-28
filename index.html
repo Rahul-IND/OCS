@@ -105,32 +105,31 @@
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 11l7-7 7 7M5 19l7-7 7 7" />
         </svg>
     </button>
-    <header class="p-10 flex max-md:flex-col max-md:justify-around md:flex-row md:justify-between md:items-center"
-        id="myHeader">
-        <div class="xl:mr-40 max-md:h-screen flex-grow flex flex-col justify-center items-start revealLoad fade-left">
+    <header class="px-10 pt-18 md:custom-height flex flex-row max-md:flex-col justify-around md:items-center">
+        <div class="md:mr-40 max-md:mb-40 custom-height flex flex-col justify-center items-start revealLoad fade-left">
             <h1 class="text-9xl font-extrabold font-mono text-gray">OCS</h1>
             <h2 class="text-6xl font-extrabold font-mono text-black">Contact</h2>
             <h2 class="text-6xl font-extrabold font-mono text-black">Line</h2>
         </div>
         <section class="text-white revealLoad fade-right">
             <div>
-                <div class="container mx-auto py-10">
-                    <div class="grid max-md:gap-y-8 xl:grid-cols-3 xl:gap-x-8 2xl:gap-x-16">
+                <div class="container mx-auto">
+                    <div class="grid max-xl:grid-rows-3 max-xl:gap-y-8 xl:grid-cols-3 xl:gap-8 2xl:gap-x-16">
                         <!-- Card 1 -->
                         <div role="link" href="egypt.html"
                             class="group bg-blue1 hover:bg-blue2 cursor-pointer shadow-lg  overflow-hidden hover:shadow-xl transition duration-500">
                             <div class="relative">
                                 <img src="images/productivity.jpeg" alt="Image 1"
-                                    class="w-full h-48 object-cover transition-transform transform duration-500 group-hover:scale-110">
+                                    class="max-xl:hidden w-full h-48 object-cover transition-transform transform duration-500 group-hover:scale-110">
                             </div>
                             <div class="p-8">
                                 <h3 class="text-xl text-white group-hover:text-cyan font-bold mb-4">Productivity
                                 </h3>
-                                <p class="mb-8 text-white line-clamp-3">
-                                    <!-- Your text content here -->
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus vitae magna
+                                <!-- <p class="mb-8 text-white line-clamp-3"> -->
+                                <!-- Your text content here -->
+                                <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus vitae magna
                                     laoreet varius.
-                                </p>
+                                </p> -->
                                 <div class=" p-4 float-right"><img src="icons/arrow-light.svg" alt=""
                                         class="arrow-icon">
                                 </div>
@@ -141,16 +140,16 @@
                             class="group bg-blue1 hover:bg-blue2 cursor-pointer shadow-lg  overflow-hidden hover:shadow-xl transition duration-500">
                             <div class="relative">
                                 <img src="images/key-experts.jpg" alt="Image 1"
-                                    class="w-full h-48 object-cover transition-transform transform duration-500 group-hover:scale-110">
+                                    class="max-xl:hidden w-full h-48 object-cover transition-transform transform duration-500 group-hover:scale-110">
                             </div>
                             <div class="p-8">
                                 <h3 class="text-xl text-white group-hover:text-cyan font-bold mb-4">Key Experts
                                 </h3>
-                                <p class="mb-8 text-white line-clamp-3">
-                                    <!-- Your text content here -->
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus vitae magna
+                                <!-- <p class="mb-8 text-white line-clamp-3"> -->
+                                <!-- Your text content here -->
+                                <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus vitae magna
                                     laoreet varius.
-                                </p>
+                                </p> -->
                                 <div class=" p-4 float-right"><img src="icons/arrow-light.svg" alt=""
                                         class="arrow-icon">
                                 </div>
@@ -161,16 +160,16 @@
                             class="group bg-blue1 hover:bg-blue2 cursor-pointer shadow-lg  overflow-hidden hover:shadow-xl transition duration-500">
                             <div class="relative">
                                 <img src="images/project-involvement.jpg" alt="Image 1"
-                                    class="w-full h-48 object-cover transition-transform transform duration-500 group-hover:scale-110">
+                                    class="max-xl:hidden w-full h-48 object-cover transition-transform transform duration-500 group-hover:scale-110">
                             </div>
                             <div class="p-8">
                                 <h3 class="text-xl text-white group-hover:text-cyan font-bold mb-4">Projects Involvement
                                 </h3>
-                                <p class="mb-8 text-white line-clamp-3">
-                                    <!-- Your text content here -->
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus vitae magna
+                                <!-- <p class="mb-8 text-white line-clamp-3"> -->
+                                <!-- Your text content here -->
+                                <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus vitae magna
                                     laoreet varius.
-                                </p>
+                                </p> -->
                                 <div class=" p-4 float-right"><img src="icons/arrow-light.svg" alt=""
                                         class="arrow-icon">
                                 </div>
@@ -187,11 +186,12 @@
                                 <h3 class="text-xl text-white group-hover:text-cyan font-bold mb-4">
                                 </h3>
                                 <p class="mb-8 text-white line-clamp-3">
-                                    Your text content here -->
-                        <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus vitae magna
+                                    Your text content here
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus vitae magna
                                     laoreet varius.
                                 </p>
-                                <div class=" p-4 float-right"><img src="icons/arrow-light.svg" alt="" class="arrow-icon">
+                                <div class=" p-4 float-right"><img src="icons/arrow-light.svg" alt=""
+                                        class="arrow-icon">
                                 </div>
                             </div>
                         </div> -->
@@ -199,7 +199,14 @@
                     </div>
         </section>
 
+        <div class="md:hidden scroll-to-more left-1/2 bottom-10 flex justify-center items-center absolute bounceAnimation"
+            id="scrollArrowContainer">
+            <!-- SVG arrow -->
+            <img src="icons/arrow-dark.svg" alt="" class="md:hidden rotate-90">
+        </div>
     </header>
+
+
 
 
 
@@ -210,8 +217,8 @@
         var groupDivs = document.querySelectorAll('.group');
 
         // Store the original source and the new source
-        var originalSrc = 'icons/arrow-light.svg';
-        var newSrc = 'icons/arrow-dark.svg';
+        var originalSrc1 = 'icons/arrow-light.svg';
+        var newSrc1 = 'icons/arrow-dark.svg';
 
         // Add event listeners to each group div
         groupDivs.forEach((groupDiv) => {
@@ -219,11 +226,11 @@
             var arrowIcon = groupDiv.querySelector('.arrow-icon');
 
             groupDiv.addEventListener('mouseover', function () {
-                arrowIcon.src = newSrc;
+                arrowIcon.src = newSrc1;
             });
 
             groupDiv.addEventListener('mouseout', function () {
-                arrowIcon.src = originalSrc;
+                arrowIcon.src = originalSrc1;
             });
         });
 
@@ -237,6 +244,22 @@
             });
         });
     </script>
+    <!-- Add this script at the end of the body tag or in a separate .js file -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const scrollArrowContainer = document.getElementById('scrollArrowContainer');
+            // Show the arrow on page load
+            scrollArrowContainer.style.display = 'block';
+
+            // Set a timeout to hide the arrow after 1 second (1000 milliseconds)
+            setTimeout(function () {
+                scrollArrowContainer.style.display = 'none';
+            }, 1000);
+        });
+    </script>
+
+
+
 </body>
 
 </html>
