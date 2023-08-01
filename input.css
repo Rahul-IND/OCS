@@ -115,6 +115,9 @@ input, select {
 
 
 
+
+
+/* styles.css */
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
@@ -125,6 +128,13 @@ input, select {
     src: url('Fonts/Siemens_Sans_Roman.ttf') format('truetype');
 }
 
+/* nav{
+    border-bottom: 1px solid gray;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    position: relative;
+    z-index: 1;
+} */
 * {
     margin: 0;
     padding: 0;
@@ -137,12 +147,84 @@ input, select {
     background-color: #00ffb9;
 }
 
+/* * {
+    -webkit-tap-highlight-color: transparent;
+} */
+
+
+/*Prevents initial display of the button when refreshed*/
+/* #moveToTopButton.hidden {
+    display: none;
+} */
+
+/*Gradient color for navbar*/
 #gradient1 {
     background-image: linear-gradient(to bottom right, #000028, #00ffb9);
 }
 
-#gradient2 {
-    background-image: linear-gradient(to bottom right, #000028, #00ffb9);
+/*Transition for link boxes*/
+/* .grid>div {
+    transition: all 0.4s ease;
+} */
+
+/* .grid>div:hover {
+    transform: scale(1.05);
+} */
+
+/* .navlinks {
+    display: none;
+} */
+
+
+
+
+/* @media only screen and (min-width : 768px) { */
+/* .hemburger_icon__container {
+        display: none;
+    } */
+
+/* .mobile_nav_links__container {
+        display: none;
+    } */
+
+/* .navlinks {
+        display: flex;
+        flex-grow: 1;
+    } */
+
+/* .branding {
+        flex-grow: 1;
+        Haven't added this in index.html
+    } */
+
+
+/* .navbar>ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    } */
+/* } */
+
+/* MOBILE VIEW */
+.mobile_nav_links__container {
+    /* background-color: #000028; */
+    /* height: 100vh; */
+    /* width: 100%; */
+    /* position: fixed; */
+    /* inset: 0; */
+    /* padding-top: 50px; */
+    /* padding-left: 40px; */
+    /* transform: translateX(-100%); */
+    /* transition: all 500ms ease-in-out; */
+}
+
+.mobile_nav_links__container>ul>li {
+    /* padding: 15px 0px; */
+}
+
+.mobile_nav_links__container>ul>li>a {
+    /* color: #c1c1c1; */
 }
 
 .displayMenu {
@@ -158,12 +240,45 @@ input, select {
     transform: rotate(180deg);
 }
 
-/* .gradient-text {
-    background: linear-gradient(to bottom right, #00ffb9, #00193c);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-} */
+
+
+
+
+
+
+
+
+.carousel-container {
+    width: 100%;
+    max-height: auto;
+    height: auto;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 1s ease;
+}
+
+.carousel-item {
+    flex-shrink: 0;
+    width: 100%;
+    height: auto;
+}
+
+.carousel-item img {
+    width: 100%;
+    /* max-height: 500px; */
+    object-fit:contain;
+}
+
 
 /* Animations */
 .reveal {
@@ -223,11 +338,12 @@ input, select {
     }
 }
 
+/* Used in ocs.html */
+
 .custom-height {
-    height: calc(100vh - 72px);
+    height: calc(100vh - 64px);
     /* Subtract 20px from the height of the viewport (h-screen) */
 }
-
 @keyframes bounce {
     0%, 100% {
         transform: translateY(0);

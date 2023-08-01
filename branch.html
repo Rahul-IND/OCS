@@ -11,7 +11,7 @@
 
 </head>
 
-<body class="bg-blue font-siemensSans" id="gradient1">
+<body class="bg-blue font-siemensSans">
     <nav class="navbar
     h-16
     mb-2
@@ -22,10 +22,10 @@
     bg-black
     border-b border-gray-50
     backdrop-filter backdrop-blur-lg
-    z-10 bg-blue">
+    z-10" id="gradient1">
         <div class="branding grow">
             <a href="index.html">
-                <img src="icons/siemens-logo.svg" alt="Siemens Logo" role="button">
+                <img src="icons/siemens-cobra.svg" alt="Siemens Logo" role="button">
             </a>
         </div>
         <ul class="navlinks
@@ -33,9 +33,9 @@
         flex justify-between items-center flex-row grow        
         text-white
         max-md:hidden">
-            <li><a href="about.html" class="hover:text-cyan">About</a></li>
             <li><a href="services.html" class="hover:text-cyan">Services</a></li>
-            <li><a href="contact.html" class="hover:text-cyan">Contact</a></li>
+            <li><a href="about.html" class="hover:text-cyan">About</a></li>
+            <li><a href="experts.html" class="hover:text-cyan">Experts</a></li>
             <li class="px-10 py-4 
             text-white 
             hover:scale-105">
@@ -70,11 +70,11 @@
         z-0" id="mobileMenu">
             <ul>
                 <li class="px-10 text-white hover:bg-blue1"><a href="index.html" class="block w-full py-4">Home</a></li>
-                <li class="px-10 text-white hover:bg-blue1"><a href="about.html" class="block w-full py-4">About</a>
-                </li>
                 <li class="px-10 text-white hover:bg-blue1"><a href="services.html"
                         class="block w-full py-4">Services</a></li>
-                <li class="px-10 text-white hover:bg-blue1"><a href="contact.html" class="block w-full py-4">Contact</a>
+                <li class="px-10 text-white hover:bg-blue1"><a href="about.html" class="block w-full py-4">About</a>
+                </li>
+                <li class="px-10 text-white hover:bg-blue1"><a href="experts.html" class="block w-full py-4">Experts</a>
                 </li>
                 <li class="px-10 py-4 text-white hover:bg-blue1 hover:scale-105">
                     <div class="flex justify-between flex-grow">
@@ -276,7 +276,6 @@
                     <div class="mt-4 text-center">
                         <h3 class="mb-2 text-xl text-white group-hover:text-cyan font-bold">Tilak Dhari</h3>
                         <div class="flex flex-col items-center">
-
                             <span class="text-white">roytilak.pec@gmail.com</span>
                         </div>
                         <!-- <div class="flex flex-col items-center mt-2">
@@ -328,8 +327,11 @@
             </ul>
         </div>
     </footer>
-    <script src="common.js"></script>
-    <script src="app.js"></script>
+    <script src="javascripts/menu.js"></script>
+    <script src="javascripts/move-to-top.js"></script>
+    <script src="javascripts/searchbox.js"></script>
+    <script src="javascripts/reveal-revealLoad.js"></script>
+    <script src="javascripts/profile-icon.js"></script>
 </body>
 
 </html>
