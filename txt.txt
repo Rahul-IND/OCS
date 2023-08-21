@@ -1,285 +1,53 @@
- <!-- Link boxes in grid -->
-    <header class="mb-20 p-10">
-        <div class="grid grid-cols-3 max-sm:grid-cols-1 max-md:grid-cols-2 max-lg:grid-cols-3 
-        gap-x-4 gap-y-5 2xl:gap-x-8 2xl:gap-y-8 
-        revealLoad fade-left" id="gridContainer">
-            <!-- Box 1 -->
-            <div class="h-auto 
-            bg-blue1 text-white
-            hover:bg-blue2 hover:border-1 hover:border-black hover:text-cyan ease animate-on-scroll
-        ">
-                <h3 class="ml-5 mt-5 mb-4 text-xl text-xl font-semibold">Lorem ipsum dolor</h3>
-                <ul>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">sit ame</a>
-                    </li>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">consectetur</a>
-                    </li>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">adipiscing elit</a>
-                    </li>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">Sed</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- Box 2 -->
-            <div
-                class="h-auto bg-blue1 text-white  ease hover:bg-blue2 hover:border-1 hover:border-black hover:text-cyan animate-on-scroll">
-                <h3 class="ml-5 mt-5 mb-4 text-xl font-semibold">vestibulum consectetur mauris</h3>
-                <ul>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">in laoreet</a>
-                    </li>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">lorem varius at</a>
-                    </li>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">Donecauctor magna</a>
-                    </li>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">sagittis</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- Box 3 -->
-            <div
-                class="h-auto bg-blue1 text-white  ease hover:bg-blue2 hover:border-1 hover:border-black hover:text-cyan animate-on-scroll">
-                <h3 class="ml-5 mt-5 mb-4 text-xl font-semibold">Suspendisse a interdum lorem</h3>
-                <ul>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">Morbi commodo</a>
-                    </li>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">Suspendisse</a>
-                    </li>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">elementum consectetur</a>
-                    </li>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">eleifend</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- Box 4 -->
-            <div
-                class="h-auto bg-blue1 text-white  ease hover:bg-blue2 hover:border-1 hover:border-black hover:text-cyan animate-on-scroll">
-                <h3 class="ml-5 mt-5 mb-4 text-xl font-semibold">non fringilla efficitur</h3>
-                <ul>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">Ut lacinia ut est</a>
-                    </li>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">consectetur</a>
-                    </li>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">vulputate est</a>
-                    </li>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">pellentesque dsll</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- Box 5 -->
-            <div
-                class="h-auto bg-blue1 text-white  ease hover:bg-blue2 hover:border-1 hover:border-black hover:text-cyan animate-on-scroll">
-                <h3 class="ml-5 mt-5 mb-4 text-xl font-semibold">Nam porttitor risustfelis fermentum</h3>
-                <ul>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">nunc tristique</a>
-                    </li>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">felis varius fermentum</a>
-                    </li>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">lobortis interdu</a>
-                    </li>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">risus elementum consectetur</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- Box 6 -->
-            <div
-                class="h-auto bg-blue1 text-white  ease hover:bg-blue2 hover:border-1 hover:border-black hover:text-cyan animate-on-scroll">
-                <h3 class="ml-5 mt-5 mb-4 text-xl font-semibold">ehicula pellentesque</h3>
-                <ul>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">hasellus si</a>
-                    </li>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">interdum</a>
-                    </li>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">ullamcorper nec</a>
-                    </li>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">pellentesque</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- Box 7 -->
-            <div
-                class="h-auto bg-blue1 text-white  ease hover:bg-blue2 hover:border-1 hover:border-black hover:text-cyan animate-on-scroll">
-                <h3 class="ml-5 mt-5 mb-4 text-xl font-semibold">Lorem ipsum dolor</h3>
-                <ul>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">sit ame</a>
-                    </li>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">consectetur</a>
-                    </li>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">adipiscing elit</a>
-                    </li>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">Sed</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- Box 8 -->
-            <div
-                class="h-auto bg-blue1 text-white  ease hover:bg-blue2 hover:border-1 hover:border-black hover:text-cyan animate-on-scroll">
-                <h3 class="ml-5 mt-5 mb-4 text-xl font-semibold">vestibulum consectetur mauris</h3>
-                <ul>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">in laoreet</a>
-                    </li>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">lorem varius at</a>
-                    </li>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">Donecauctor magna</a>
-                    </li>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">sagittis</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- Box 9 -->
-            <div
-                class="h-auto bg-blue1 text-white  ease hover:bg-blue2 hover:border-1 hover:border-black hover:text-cyan animate-on-scroll">
-                <h3 class="ml-5 mt-5 mb-4 text-xl font-semibold">Lorem ipsum dolor</h3>
-                <ul>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">sit ame</a>
-                    </li>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">consectetur</a>
-                    </li>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">adipiscing elit</a>
-                    </li>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">Sed</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- Box 10 -->
-            <div
-                class="h-auto bg-blue1 text-white  ease hover:bg-blue2 hover:border-1 hover:border-black hover:text-cyan animate-on-scroll">
-                <h3 class="ml-5 mt-5 mb-4 text-xl font-semibold">vestibulum consectetur mauris</h3>
-                <ul>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">in laoreet</a>
-                    </li>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">lorem varius at</a>
-                    </li>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">Donecauctor magna</a>
-                    </li>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">sagittis</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- Box 11 -->
-            <div
-                class="h-auto bg-blue1 text-white  ease hover:bg-blue2 hover:border-1 hover:border-black hover:text-cyan animate-on-scroll">
-                <h3 class="ml-5 mt-5 mb-4 text-xl font-semibold">Suspendisse a interdum lorem</h3>
-                <ul>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">Morbi commodo</a>
-                    </li>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">Suspendisse</a>
-                    </li>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">elementum consectetur</a>
-                    </li>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">eleifend</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- Box 12 -->
-            <div
-                class="h-auto bg-blue1 text-white  ease hover:bg-blue2 hover:border-1 hover:border-black hover:text-cyan animate-on-scroll">
-                <h3 class="ml-5 mt-5 mb-4 text-xl font-semibold">non fringilla efficitur</h3>
-                <ul>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">Ut lacinia ut est</a>
-                    </li>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">consectetur</a>
-                    </li>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">vulputate est</a>
-                    </li>
-                    <li class="pl-5 py-2.5 flex items-center hover:bg-blue1">
-                        <!-- <span class="inline-block w-1.5 h-1.5 bg-white rounded-full mr-2"></span> -->
-                        <a href="#" class="w-full text-base text-white">pellentesque dsll</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </header>
+OCS-Contact Line Website
+Last Updated: 2010-09-17
+Developed by: Rahul Das
+Contact Email: rahuldasjec.cse@gmail.com
+Internship Duration: July 3, 2023, to September 1, 2023
+Guided by: Suneel, Bhagwat Sharma
+Technologies used: HTML, CSS, Tailwind CSS, javascript (Some code has been taken from ChatGPT)
+The website's codebase could have been more efficient if other technologies were used; however, it was decided that these technologies were the most appropriate for the project as per the developer's skillset.
+
+* The website is mainly made for two purposes-
+1. To present to stakeholders details about the delivered projects, team's expertise etc. [EXTERNAL USAGE]
+2. To use it in team meetings instead of ppts showing team productivity, project history etc. [INTERNAL USAGE]
+
+* This file serves the purpose of providing a better understanding of the file structure and code.
+
+There are four folders viz.
+1. Fonts -> Contains the file Siemens_Sans_Roman.ttf 
+            This font is used in the whole website.
+2. icons -> Contains all the icons (as well as logos) used in the website
+            Most of them are in svg format
+3. images -> Contains all the images used throughout the website
+4. javascripts -> This folder contains all the JavaScript files. 
+                    Each JavaScript file is dedicated to a specific component. 
+                    Whenever a component is used on a webpage, the corresponding JavaScript file is imported to provide its functionality.
+        
+HTML files-
+[External Usage]
+1. index.html-> This is the homepage of the website.
+                From homepage, we can navigate to these pages - services, about, experts
+2. services.html -> Contains services of Electrification segment under Siemens COBRA
+                    Whenever a service is clicked on, user is redirected to Siemens Official Website
+3. about.html -> Contains details about OCS team
+                    Projects delivered by OCS team
+                    Whenever a project is clicked on, new page containing project details will show up
+                    'Learn More' button redirects to OCS website made for internal usage.
+4. experts.html -> Contains details about employees
+
+
+[Internal Usage]
+5. ocs.html -> Home page for ocs-contact line website
+                From homepage, we can navigate to these pages - important links, productivity and project involvement
+6. links.html -> Contains all the links frequently required
+7. productivity.html -> 
+8. project-involvement.html -> 
+
+CSS files-
+1. input.css ->
+2. output.css ->
+
+js file -
+1. tailwind.config.js -> 
+Know more about tailwind installation: https://tailwindcss.com/docs/installation
+Know more about tailwind application: https://tailwindcss.com/docs/utility-first and many more 
