@@ -1,10 +1,9 @@
 const menu = document.getElementById("menu");
 const mobileMenu = document.getElementById("mobileMenu");
+
 menu.addEventListener("click", () => {
     mobileMenu.classList.toggle("displayMenu");
 })
-
-
 
 // Function to scroll to the top of the page
 function scrollToTop() {
@@ -13,6 +12,7 @@ function scrollToTop() {
         behavior: 'smooth'
     });
 }
+
 // Show or hide the "Move to Top" button based on scroll position
 function handleScroll() {
     var button = document.getElementById('moveToTopButton');
@@ -22,6 +22,7 @@ function handleScroll() {
         button.style.display = 'none';
     }
 }
+
 // Add event listeners for scroll and button click
 window.addEventListener('scroll', handleScroll);
 document.getElementById('moveToTopButton').addEventListener('click', scrollToTop);
@@ -30,18 +31,19 @@ document.getElementById('moveToTopButton').addEventListener('click', scrollToTop
 
 // Get the image element
 var profileIcon = document.getElementById('profileIcon');
+
 // Store the original source and the new source
 var originalSrc = 'icons/profile-icon-white.svg';
 var newSrc = 'icons/profile-icon-blue.svg';
+
 // Add event listeners for hover and mouseout
 profileIcon.addEventListener('mouseover', function () {
     profileIcon.src = newSrc;
 });
+
 profileIcon.addEventListener('mouseout', function () {
     profileIcon.src = originalSrc;
 });
-
-
 
 // For menu icon and cross icon
 function toggleMenuIcon() {
@@ -50,7 +52,6 @@ function toggleMenuIcon() {
     menuIcon.classList.toggle("cross-icon");
     menuIcon.classList.toggle("rotate-180");
 }
-
 
 
 
@@ -92,5 +93,9 @@ document.addEventListener("DOMContentLoaded", function () {
     // Wait for a short delay before adding the active class to allow initial hiding
     setTimeout(revealElementsOnLoad, 50);
 });
+
+
+
+
 
 

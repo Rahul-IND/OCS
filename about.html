@@ -24,7 +24,7 @@
     z-10" id="gradient1">
         <div class="branding grow">
             <a href="index.html">
-                <img src="icons/siemens-cobra.svg" alt="Siemens Logo" role="button">
+                <img src="icons/siemens-logo.svg" alt="Siemens Logo" role="button">
             </a>
         </div>
         <ul class="navlinks
@@ -32,22 +32,22 @@
         flex justify-between items-center flex-row grow        
         text-white
         max-md:hidden">
-            <li><a href="services.html" class="hover:text-cyan">Services</a></li>
             <li><a href="about.html" class="hover:text-cyan">About</a></li>
-            <li><a href="experts.html" class="hover:text-cyan">Experts</a></li>
+            <li><a href="services.html" class="hover:text-cyan">Services</a></li>
+            <li><a href="contact.html" class="hover:text-cyan">Contact</a></li>
             <li class="px-10 py-4 
             text-white 
             hover:scale-105">
-
                 <div class="relative">
                     <input type="text" class="searchBox searchInput 
                         rounded-3xl px-4 py-2 pr-10 
                         bg-gray-700 text-blue 
-                        focus:outline-none focus:bg-white focus:text-white-900 z-10" placeholder="Search">
+                        focus:outline-none focus:bg-blue1 hover:bg-blue2 focus:text-white-900" placeholder="Search"
+                        style="z-index: 1;">
 
                     <button type="submit" class="searchSubmit 
                     absolute top-0 right-0 
-                    mt-2 mr-3 z-20">
+                    mt-2 mr-3" style="z-index: 2;">
                         <img src="icons/search-icon-black.svg" alt="">
                     </button>
                 </div>
@@ -69,11 +69,11 @@
         z-0" id="mobileMenu">
             <ul>
                 <li class="px-10 text-white hover:bg-blue1"><a href="index.html" class="block w-full py-4">Home</a></li>
-                <li class="px-10 text-white hover:bg-blue1"><a href="services.html"
-                        class="block w-full py-4">Services</a></li>
                 <li class="px-10 text-white hover:bg-blue1"><a href="about.html" class="block w-full py-4">About</a>
                 </li>
-                <li class="px-10 text-white hover:bg-blue1"><a href="experts.html" class="block w-full py-4">Experts</a>
+                <li class="px-10 text-white hover:bg-blue1"><a href="services.html"
+                        class="block w-full py-4">Services</a></li>
+                <li class="px-10 text-white hover:bg-blue1"><a href="contact.html" class="block w-full py-4">Contact</a>
                 </li>
                 <li class="px-10 py-4 text-white hover:bg-blue1 hover:scale-105">
                     <div class="flex justify-between flex-grow">
@@ -82,7 +82,7 @@
                             px-4 py-2 pr-10 
                             bg-gray-700 text-blue 
                             rounded-3xl 
-                            focus:outline-none focus:bg-white focus:text-white-900 
+                            focus:outline-none focus:bg-blue1 hover:bg-blue2 focus:text-white-900 
                             sm:max-w-xs md:max-w-sm" placeholder="Search">
                         <button type="submit" class="searchSubmit">
                             <img src="icons/search-icon-white.svg" alt="">
@@ -94,7 +94,7 @@
     </nav>
     <header
         class="mb-20 p-10 text-white text-base text-ellipsis text-justify tracking-wide leading-7 font-thin overflow-hidden lg:text-lg revealLoad fade-left">
-        <h3 class="mb-16 text-3xl text-center font-extrabold">About OCS-Contact Line</h3>
+        <h3 class="mb-16 text-3xl text-center font-extrabold">About Siemens COBRA</h3>
         <p class="pb-10">
             Siemens COBRA, a division of Siemens Technology and Services Pvt Ltd, is an integral part of the Siemens
             Group, a global conglomerate known for its expertise in engineering, technology, and industrial solutions.
@@ -153,7 +153,7 @@
                 <div class="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                     <!-- Card 1 -->
                     <div role="link" href="egypt.html"
-                        class="group divLink bg-blue1 hover:bg-blue2 cursor-pointer shadow-lg  overflow-hidden hover:shadow-xl transition duration-500">
+                        class="group bg-blue1 hover:bg-blue2 cursor-pointer shadow-lg  overflow-hidden hover:shadow-xl transition duration-500">
                         <div class="relative">
                             <img src="images/egypt.jpg" alt="Image 1"
                                 class="w-full h-48 object-cover transition-transform transform duration-500 group-hover:scale-110">
@@ -172,7 +172,7 @@
                     </div>
                     <!-- Card 2 -->
                     <div role="link" href="egypt.html"
-                        class="group divLink bg-blue1 hover:bg-blue2 cursor-pointer shadow-lg  overflow-hidden hover:shadow-xl transition duration-500">
+                        class="group bg-blue1 hover:bg-blue2 cursor-pointer shadow-lg  overflow-hidden hover:shadow-xl transition duration-500">
                         <div class="relative">
                             <img src="images/singapore.jpg" alt="Image 1"
                                 class="w-full h-48 object-cover transition-transform transform duration-500 group-hover:scale-110">
@@ -191,7 +191,7 @@
                     </div>
                     <!-- Card 3 -->
                     <div role="link" href="egypt.html"
-                        class="group divLink bg-blue1 hover:bg-blue2 cursor-pointer shadow-lg  overflow-hidden hover:shadow-xl transition duration-500">
+                        class="group bg-blue1 hover:bg-blue2 cursor-pointer shadow-lg  overflow-hidden hover:shadow-xl transition duration-500">
                         <div class="relative">
                             <img src="images/romania.jpg" alt="Image 1"
                                 class="w-full h-48 object-cover transition-transform transform duration-500 group-hover:scale-110">
@@ -210,7 +210,7 @@
                     </div>
                     <!-- Card 4 -->
                     <div role="link" href="egypt.html"
-                        class="group divLink bg-blue1 hover:bg-blue2 cursor-pointer shadow-lg  overflow-hidden hover:shadow-xl transition duration-500">
+                        class="group bg-blue1 hover:bg-blue2 cursor-pointer shadow-lg  overflow-hidden hover:shadow-xl transition duration-500">
                         <div class="relative">
                             <img src="images/united-states.jpg" alt="Image 1"
                                 class="w-full h-48 object-cover transition-transform transform duration-500 group-hover:scale-110">
@@ -229,7 +229,7 @@
                     </div>
                     <!-- Card 5 -->
                     <div role="link" href="egypt.html"
-                        class="group divLink bg-blue1 hover:bg-blue2 cursor-pointer shadow-lg  overflow-hidden hover:shadow-xl transition duration-500">
+                        class="group bg-blue1 hover:bg-blue2 cursor-pointer shadow-lg  overflow-hidden hover:shadow-xl transition duration-500">
                         <div class="relative">
                             <img src="images/neom.jpg" alt="Image 1"
                                 class="w-full h-48 object-cover transition-transform transform duration-500 group-hover:scale-110">
@@ -248,7 +248,7 @@
                     </div>
                     <!-- Card 6 -->
                     <div
-                        class="group divLink bg-white shadow-lg  overflow-hidden hover:shadow-xl transition duration-500 relative">
+                        class="group bg-white shadow-lg  overflow-hidden hover:shadow-xl transition duration-500 relative">
                         <!-- Placeholder Image as the Background with Faded Effect -->
                         <img src="images/placeholder.jpg" alt="Placeholder Image"
                             class=" w-full h-full object-cover transition-opacity duration-500 opacity-50 group-hover:opacity-80">
@@ -262,14 +262,6 @@
                 <!-- Card 2 and other cards can be added similarly -->
             </div>
     </section>
-    <!-- <div class="flex justify-end"> -->
-        <div role="link" href="ocs.html"
-            class="divLink ml-10 mt-10 mb-40 px-14 py-4 max-w-xs bg-cyan hover:bg-white cursor-pointer shadow-lg overflow-hidden hover:shadow-xl transition duration-500 text-center reveal fade-left">
-            <span class="font-bold">Learn More</span>
-        </div>
-    <!-- </div> -->
-
-
     <footer class="p-10 text-white reveal fade-right">
         <div>
             <ul class="flex max-md:flex-col max-md:items-start md:flex-row md:justify-start 
@@ -304,14 +296,43 @@
 
 
 
-    <script src="javascripts/menu.js"></script>
-    <script src="javascripts/profile-icon.js"></script>
-    <script src="javascripts/move-to-top.js"></script>
-    <script src="javascripts/reveal-revealLoad.js"></script>
-    <script src="javascripts/searchbox.js"></script>
-    <script src="javascripts/arrow.js"></script>
-    <script src="javascripts/div-link.js"></script>
+    <script src="common.js"></script>
+    <script src="app.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        // Get all the div elements with class 'group'
+        var groupDivs = document.querySelectorAll('.group');
+
+        // Store the original source and the new source
+        var originalSrc = 'icons/arrow-light.svg';
+        var newSrc = 'icons/arrow-dark.svg';
+
+        // Add event listeners to each group div
+        groupDivs.forEach((groupDiv) => {
+            // Find the arrowIcon inside the current groupDiv
+            var arrowIcon = groupDiv.querySelector('.arrow-icon');
+
+            groupDiv.addEventListener('mouseover', function () {
+                arrowIcon.src = newSrc;
+            });
+
+            groupDiv.addEventListener('mouseout', function () {
+                arrowIcon.src = originalSrc;
+            });
+        });
+
+        // Add click event to the group div to navigate to the specified URL
+        groupDivs.forEach((groupDiv) => {
+            groupDiv.addEventListener('click', function () {
+                var href = groupDiv.getAttribute('href');
+                if (href) {
+                    window.location.href = href;
+                }
+            });
+        });
+
+    </script>
+
 </body>
 
 </html>
