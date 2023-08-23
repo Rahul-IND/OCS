@@ -7,7 +7,8 @@ searchInputs.forEach((searchInput) => {
       const searchText = searchInput.value.trim();
       if (searchText !== '') {
         const query = encodeURIComponent(searchText);
-        const searchUrl = `https://www.google.com/search?q=${query}`;
+        // const searchUrl = `https://www.google.com/search?q=${query}`;
+        const searchUrl = `https://find.siemens.cloud/?profile=SES.Find&uilanguage=en&cf.pc.region=IN&cf.pc.acceptedlangs=en&text=${query}`;
         window.open(searchUrl, '_blank');
         searchInput.value = ''; // Clear the search box
       }
